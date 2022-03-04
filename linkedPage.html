@@ -8,25 +8,95 @@
 </head>
 <body>
 
-    <header style="text-align: center; background-color:rgb(255, 187, 40);">
-        <h1>THE GYM CLUB EN IMÁGENES</h1>
-    </header>
+    <main>
 
-    <nav align="center">
-        <a href="index.html" >Volver a página de inicio</a>
-    </nav>
+        <header style="text-align: center; background-color:rgb(255, 187, 40);">
+            <h1>ÚLTIMAS NOTICIAS EN THE GYM CLUB</h1>
+        </header>
+    
+        <nav align="center">
+            <a href="index.html" >Volver a página de inicio</a>
+        </nav>
+    
+    
+        <div>
+            <section>
+                <h2 align="center">NOTICIAS THE GYM CLUB</h2>
+                <article align="center">
+                    <h3>Llega un nuevo monitor especializado en boxeo!</h3>
+                    <p>Desde el pasado jueves nuestro gimnasio contará
+                        con un nuevo <br> monitor para dar clases de boxeo, tanto
+                        fitboxing como boxeo real.
+                    </p>
+                    <p>
+                        Desde hoy ya puedes reservar eligiendo fecha en el siguiente calendario:
+                    </p>
+                    <form>
+                        <input type="date" name="fechaReserva" placeholder="Introduzca fecha de reserva"/>
+                    </form>
+                    <br>
+                        <img id="fotoBoxing" src="img/clasesBoxeo.jpg" />
+                   
+                </article>
+                <article align="center">
+                    <h3>Elabora una dieta junto a nuestro reconocido nutricionista!</h3>
+                    <label for="genero"><b>Seleccione su género:</b> </label>
+                    <br/>
+                    <br />	
+                    <input type="radio" name="genero" value="H" />Hombre	
+                    <input type="radio" name="genero" value="M" />Mujer	
+                    <input type="radio" name="genero" value="O" />Otr@
+                    <input type="radio" name="genero" value="P" />Prefiero no decirlo	
+                    <br/>
+                    <br/>
+                    <label for="edadR"><b>Indique su rango de edad:</b></label>
+                    <br />
+                    <br />
+                    <input type="checkbox" name="edadR" value="S" />>16años
+                    <input type="checkbox" name="edadR" value="M" />18-30 años	
+                    <input type="checkbox" name="edadR" value="I" />30-60 años	
+                    <input type="checkbox" name="edadR" value="V" />>60años
+                    <br/>
+                    <br/>
+                    <label for="actividadFisica"><b>Indique su nivel de actividad física:</b></label>
+                    <br />	
+                    <br />
+                    <select name="actividadFisica">
+                        <option value="ML">Muy leve</option>
+                        <option value="L">Leve</option>
+                        <option value="M" selected>Moderada</option>
+                        <option value="INT">Intensa</option>
+                        <option value="EXC">Excepcional</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <label for="actividadFisica"><b>Indique su email donde se le facilitará una dieta:</b></label>
+                    <br />	
+                    <br />
+                    <input id="email" type="email" name="email"/>
+                    <br>
+                    <br>
+                    <img style="width: 1280px; height: 800px;" id="fotoDietista" src="img/dietista.jpg" />
+                    <br>
+                    <br>
+                </article>
+            </section>
+        </div>
+        
+        
+    
+        <label for="opinión">Dejanos tu opinión del gimnasio!</label>
+        <br />	
+        <textarea style="resize: none;" rows="5" cols="202" name="observaciones"></textarea>
+    
+        <footer style="width: 100%;  height:0%; position:absolute; left:0;">
+            <p style="background-color: black; color: pink; padding-bottom: 0%; margin-bottom: 0%; text-align: center;">
+                THE GYM CLUB copyright 2021 &copy;
+            </p>
+        </footer>
 
-
-
-    <label for="opinión">Dejanos tu opinión del gimnasio!</label>
-    <br />	
-    <textarea style="resize: none;" rows="5" cols="202" name="observaciones"></textarea>
-
-    <footer style="width: 100%;  height:0%; position:absolute; left:0;">
-        <p style="background-color: black; color: pink; padding-bottom: 0%; margin-bottom: 0%; text-align: center;">
-            THE GYM CLUB copyright 2021 &copy;
-        </p>
-    </footer>
+    </main>
+    
 
     
 </body>

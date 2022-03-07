@@ -5,28 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE GYM CLUB</title>
+    <link href="css/linkedPage.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
     
-    <header style="background-color:rgb(255, 187, 40); width:100%; position:absolute; top:0; left:0;">
-        <h1 style="text-align: center; ">THE GYM CLUB</h1>
+    <header class="headerPags">
+        <h1>THE GYM CLUB</h1>
     </header>
     
     
-    <div style="width: 100%;">
-        <img style="width: 100%;" id="fotoGym" src="img/gym.jpeg" alt="Gimnasio" title="Foto de gimnasio" />
+    <div>
+        <img class="imageFull" id="fotoGym" src="img/gym.jpeg" alt="Gimnasio" title="Foto de gimnasio" />
     </div>
 
     <marquee>
         <h1>¡INSCRÍBETE YA!</h1>
     </marquee>
-    <div>
 
+    <div class="divTable">
         <table border="1" align="left">
             <thead>
                 <tr>
-                    <th colspan="2" style=" text-align:center;"><h4>¿QUÉ VENTAJAS OFRECEMOS EN NUESTRO GIMNASIO?</h4></th>
+                    <th colspan="2" class="text-center"><h4>¿QUÉ VENTAJAS OFRECEMOS EN NUESTRO GIMNASIO?</h4></th>
                 </tr>
             </thead>
             <tbody>
@@ -36,7 +37,7 @@
                             <li>24 horas de apertura todos los días del año</li>
                         </td>
                         <td>
-                            <img style="width: 75px; height: 75px;" id="foto24/7" src="img/247.png" alt="Gimnasio24/7" title="Apertura gimnasio" />
+                            <img class="tableImgStyle" id="foto24/7" src="img/247.png" alt="Gimnasio24/7" title="Apertura gimnasio" />
                         </td>
                     </ul>
                 </tr>
@@ -46,7 +47,7 @@
                             <li>Entrenadores personales</li>
                         </td>
                         <td>
-                            <img style="width: 75px; height: 75px;" id="fotoEntrenador" src="img/strong.png" alt="Entrenadores" title="Entrenadores gimnasio" />
+                            <img class="tableImgStyle" id="fotoEntrenador" src="img/strong.png" alt="Entrenadores" title="Entrenadores gimnasio" />
                         </td>
                     </ul>
                 </tr>
@@ -56,7 +57,7 @@
                             <li>Más de 10 monitores licenciados</li>
                         </td>
                         <td>
-                            <img style="width: 75px; height: 75px;" id="fotoMonit" src="img/personalTrainer.PNG" alt="monitores" title="monitores gimnasio" />
+                            <img class="tableImgStyle" id="fotoMonit" src="img/personalTrainer.PNG" alt="monitores" title="monitores gimnasio" />
                         </td>
                     </ul>
                 </tr>
@@ -66,7 +67,7 @@
                             <li>Dietas personalizadas</li>
                         </td>
                         <td>
-                            <img style="width: 75px; height: 75px;" id="fotoDieta" src="img/diet.png" alt="Dieta" title="Dieta gimnasio" />
+                            <img class="tableImgStyle" id="fotoDieta" src="img/diet.png" alt="Dieta" title="Dieta gimnasio" />
                         </td>
                     </ul>
                 </tr>
@@ -96,7 +97,7 @@
         <table border="1" align="center">
             <thead>
                 <tr>
-                    <th style=" text-align:center;"><h4>FORMULARIO DE INSCRIPCIÓN</h4></th>
+                    <th class="text-center"><h4>FORMULARIO DE INSCRIPCIÓN</h4></th>
                 </tr>
             </thead>
             <tbody>
@@ -139,16 +140,15 @@
             </tbody>
         </table>
         
-        
-        
-
 
     </div>
     
-    <footer style="width: 100%;  height:0%; position:absolute; left:0;">
-        <p style="background-color: black; color: pink; padding-bottom: 0%; margin-bottom: 0%; text-align: center;">
-            THE GYM CLUB copyright 2021 &copy;
-        </p>
+    <footer class="footer text-center">
+        <div class="footerContainer">
+                <div>
+                    <p>THE GYM CLUB copyright 2021 &copy;</p>
+                </div>
+        </div>
     </footer>
 
 </body>

@@ -7,6 +7,16 @@
     left: 0%;
 }
 
+.headerLinked{
+    color: rgb(255, 187, 40);
+    background-color:black;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+}
+
 .imageFull{
     display: block;
     width: 100%;
@@ -52,8 +62,11 @@ body {
 }
 
 .imgAdapt{
-    width: 1280px; 
+    background-color: black;
+    width: 1290px; 
     height: 800px;
+    border: 10px solid;
+    border-color: black;
 }
 
 .styleOpinion{

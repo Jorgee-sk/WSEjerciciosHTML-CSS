@@ -285,9 +285,13 @@ h1{
 }
 
 @media (min-width: 768px){
-.col-md-6 {
-    flex: 0 0 auto;
-    width: 0%;
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 0%;
+    }
 }
+
+.btnHover:hover{
+    opacity: .5;
 }
 

@@ -63,6 +63,7 @@ body {
 
 .imgAdapt{
     background-color: black;
+    padding: 0%;
     width: 1290px; 
     height: 800px;
     border: 10px solid;
@@ -81,4 +82,8 @@ body {
 .headerUpperCenter{
     text-transform: uppercase;
     text-align: center;
+}
+
+a:hover, a:focus{
+    color:rgb(109, 65, 212);
 }

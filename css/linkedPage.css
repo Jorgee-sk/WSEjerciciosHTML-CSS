@@ -60,3 +60,12 @@ body {
     resize: none; 
     margin-bottom: 10px;
 }
+
+.headerUpper{
+    text-transform: uppercase;
+}
+
+.headerUpperCenter{
+    text-transform: uppercase;
+    text-align: center;
+}

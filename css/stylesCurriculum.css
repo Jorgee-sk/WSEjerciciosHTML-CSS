@@ -1,6 +1,6 @@
 body{
     margin: 0;
-
+    padding: 0;
     font-weight: 300;
 }
 
@@ -98,8 +98,13 @@ nav a:hover{
 }
 
 .rounded-circle {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    border:5px inset rgb(66, 138, 114);
     border-radius: 50% !important;
 }
+
 
 .rounded-square {
     border-radius: 20%;

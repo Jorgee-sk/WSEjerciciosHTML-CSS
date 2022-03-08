@@ -136,6 +136,12 @@ nav a:hover{
 .d-flex {
     display: flex !important;
 }
+.d-block {
+    display: block !important;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
 
 @media (min-width: 768px){
     .containerSection1 {
